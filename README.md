@@ -1,3 +1,11 @@
+# Deployment
+
+e-commerce-project-r8elqcbpw-sulhan-ozgurs-projects.vercel.app
+
+# Domains
+
+e-commerce-project-mu-jade.vercel.app
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
