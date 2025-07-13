@@ -12,13 +12,13 @@ export default function HeaderTopBar() {
     <header className="hidden md:flex bg-[#252B42] text-white w-full h-[58px] flex justify-between px-9">
       {/* Left Section: Telephone + Email */}
       <div className="flex items-center">
-        <div className="flex items-center p-6 rounded-sm">
+        <div className="flex items-center rounded-sm">
           <Phone className="w-4 h-4" />
           <span className="p-1 text-sm font-bold leading-6">
             (225) 555-0118
           </span>
         </div>
-        <div className=" flex items-center rounded-sm">
+        <div className=" flex items-center rounded-sm p-5">
           <Mail className="w-4 h-4" />
           <span className="p-1 text-sm font-bold leading-6">
             michelle.rivera@example.com
