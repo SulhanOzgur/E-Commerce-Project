@@ -1,7 +1,8 @@
-import TrustedBy from '../components/clients/TrustedBy';
+import TrustedBy from '../components/trustedby/TrustedBy';
 import HeaderNavBar from '../components/header/HeaderNavBar';
 import HeaderTopBar from '../components/header/HeaderTopBar';
 import HeroSection from '../components/hero/HeroSection';
+import Highlights from '../components/highlights/Highlights';
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       <HeaderNavBar />
       <HeroSection />
       <TrustedBy />
+      <Highlights />
     </>
   );
 }
