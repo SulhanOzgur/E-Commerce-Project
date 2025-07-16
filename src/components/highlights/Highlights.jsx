@@ -8,7 +8,7 @@ export default function Highlights() {
         <img
           src={highlights[0].src}
           alt={highlights[0].alt}
-          className={`${highlights[0].width} ${highlights[0].height} object-cover`}
+          className={`w-[611px] h-[572px] object-cover`}
         />
         <div className="absolute bottom-0 left-0 bg-[#2D8BC0BF] w-[420px] h-[238px] flex flex-col justify-center">
           <h3 className="text-2xl font-bold text-white w-[192px] h-[64px] ml-14 mt-15">
@@ -26,7 +26,7 @@ export default function Highlights() {
           <img
             src={highlights[1].src}
             alt={highlights[1].alt}
-            className={`${highlights[1].width} ${highlights[1].height} object-cover`}
+            className={`w-[557px] h-[286px] object-cover`}
           />
           <div className="absolute bottom-0 left-0 bg-[#2D8BC0BF] w-[360px] h-[153px] flex flex-col justify-center">
             <h4 className="text-xl font-bold text-white w-[260px] h-[30px] ml-9 mt-15">
@@ -44,7 +44,7 @@ export default function Highlights() {
           <img
             src={highlights[2].src}
             alt={highlights[2].alt}
-            className={`${highlights[2].width} ${highlights[2].height} object-cover`}
+            className={`w-[557px] h-[286px] object-cover`}
           />
           <div className="absolute bottom-0 left-0 bg-[#2D8BC0BF] w-[360px] h-[153px] flex flex-col justify-center">
             <h4 className="text-xl font-bold text-white w-[260px] h-[30px] ml-9 mt-15">
