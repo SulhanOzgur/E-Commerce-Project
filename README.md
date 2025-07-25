@@ -1,6 +1,7 @@
 # Deployment
 
 e-commerce-project-r8elqcbpw-sulhan-ozgurs-projects.vercel.app
+https://e-commerce-project-mu-jade.vercel.app/
 
 # Domains
 
