@@ -4,6 +4,10 @@ import HeaderTopBar from '../components/header/HeaderTopBar';
 import HeroSection from '../components/hero/HeroSection';
 import Highlights from '../components/highlights/Highlights';
 import BestsellerProducts from '../components/bestsellerproducts/BestSellerProducts';
+import AboutSection from '../components/aboutsection/AboutSection';
+import WhatWeOffer from '../components/whatweoffer/WhatWeOffer';
+import FeaturedPosts from '../components/featuredposts/FeaturedPosts';
+import Footer from '../components/footer/Footer';
 
 export default function HomePage() {
   return (
@@ -14,6 +18,10 @@ export default function HomePage() {
       <TrustedBy />
       <Highlights />
       <BestsellerProducts />
+      <AboutSection />
+      <WhatWeOffer />
+      {/* <FeaturedPosts /> */}
+      {/* <Footer /> */}
     </>
   );
 }

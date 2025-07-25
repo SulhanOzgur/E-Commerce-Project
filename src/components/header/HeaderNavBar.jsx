@@ -5,14 +5,14 @@ export default function HeaderNavBar() {
   return (
     <header className="w-full px-9 flex py-4">
       {/* Left Section: */}
-      <h3 className="text-[#252B42] text-2xl leading-8 font-bold mr-12">
+      <h3 className="text-brand-DEFAULT text-2xl leading-8 font-bold mr-12">
         Bandage
       </h3>
 
       {/* Right Section: NavBar */}
       <div className="flex justify-between items-center flex-1">
         {/*Menu*/}
-        <div className="text-[#737373] text-sm font-bold flex gap-4 ml-10">
+        <div className="text-brand-lightgray text-sm font-bold flex gap-4 ml-10">
           <Link to="">Home</Link>
           <Link to="">Shop</Link>
           <Link to="">About</Link>
@@ -22,7 +22,7 @@ export default function HeaderNavBar() {
         </div>
 
         {/*Login/Register*/}
-        <div className="text-[#23A6F0] flex items-center space-x-8">
+        <div className="text-brand-lightblue flex items-center space-x-8">
           <div className="flex justify-center">
             <Link to="">
               <UserIcon className="w-4 h-4 mt-1 mr-1" />

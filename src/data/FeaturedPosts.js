@@ -1,17 +1,12 @@
 import media1 from '../assets/product-images/unsplash_75EFpyXu3Wg.png';
-import media1 from '../assets/product-images/fixed-width.png';
+import media2 from '../assets/product-images/fixed-width.png';
 
 //içini düzenle
-export const featuredposts = [
+export const featuredPosts = [
   {
-    id: 7,
+    id: 22,
     src: media1,
     alt: 'Media',
   },
-  { id: 8, src: media2, alt: 'Media' },
-  {
-    id: 9,
-    src: media3,
-    alt: 'Media',
-  },
+  { id: 23, src: media2, alt: 'Media' },
 ];

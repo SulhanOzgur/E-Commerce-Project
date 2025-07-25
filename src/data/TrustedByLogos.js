@@ -5,7 +5,7 @@ import stripe from '../assets/client-images/stripe.png';
 import aws from '../assets/client-images/aws.png';
 import reddit from '../assets/client-images/reddit.png';
 
-export const logos = [
+export const trustedByLogos = [
   {
     id: 1,
     src: hoolie,

@@ -9,7 +9,7 @@ import product8 from '../assets/product-images/product-cover-5-(4).png';
 import product9 from '../assets/product-images/product-cover-5.png';
 import product10 from '../assets/product-images/fixed-height-(3).png';
 
-export const bestsellerproducts = [
+export const bestSellerProducts = [
   {
     id: 10,
     title: 'Graphic Design',

@@ -5,7 +5,15 @@ export default {
     './src/**/*.{js,jsx,ts,tsx}', // <== BUNU EKLE!
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: {
+          DEFAULT: '#252B42',
+          lightgray: '#737373',
+          lightblue: '#23A6F0',
+        },
+      },
+    },
   },
   plugins: [],
 };

@@ -1,4 +1,4 @@
-import { featuredposts } from '../../data/FeaturedPosts';
+import { featuredPosts } from '../../data/FeaturedPosts';
 
 export default function FeaturedPosts() {
   return;
