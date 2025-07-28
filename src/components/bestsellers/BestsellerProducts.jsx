@@ -1,4 +1,5 @@
 import { bestSellerProducts } from '../../data/BestSellerProducts';
+import ProductCard from '../products/ProductCard';
 
 export default function BestSellerProducts() {
   return (
@@ -19,25 +20,7 @@ export default function BestSellerProducts() {
       {/* Product Photos */}
       <div className="w-[1092px] h-[789px] mt-10 grid grid-cols-5">
         {bestSellerProducts.map((product, index) => (
-          <div key={index} className="text-center space-y-3">
-            <img
-              src={product.image}
-              alt={product.title}
-              className="w-[183px] h-[238px] object-cover mx-auto"
-            />
-            <h5 className="text-base font-bold text-brand-DEFAULT">
-              {product.title}
-            </h5>
-            <p className="text-sm text-brand-lightgray">{product.department}</p>
-            <div className="text-base font-bold">
-              <span className="line-through text-[#BDBDBD] mr-2">
-                ${product.price}
-              </span>
-              <span className="text-[#23856D] font-bold">
-                ${product.discountedPrice}
-              </span>
-            </div>
-          </div>
+          <ProductCard key={product.id} product={product} />
         ))}
       </div>
 

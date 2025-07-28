@@ -8,7 +8,7 @@ export default function TrustedBy() {
           key={index}
           src={logo.src}
           alt={logo.alt}
-          className={`${logo.width} ${logo.height}`}
+          className={`w-[${logo.width}px] h-[${logo.height}px]`}
         />
       ))}
     </div>

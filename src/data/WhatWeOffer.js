@@ -20,6 +20,6 @@ export const services = [
     id: 3,
     icon: image3,
     title: 'Hack Growth',
-    description: 'Overcame any hurdle or any other problem.',
+    description: 'Overcame any hurdle or any other problem',
   },
 ];

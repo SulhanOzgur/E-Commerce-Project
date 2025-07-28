@@ -12,8 +12,8 @@ import Footer from '../components/footer/Footer';
 export default function HomePage() {
   return (
     <>
-      <HeaderTopBar />
-      <HeaderNavBar />
+      {/* Artık buna gerek yok <HeaderTopBar /> */}
+      {/* Artık buna gerek yok <HeaderNavBar /> */}
       <HeroSection />
       <TrustedBy />
       <Highlights />
